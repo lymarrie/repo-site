@@ -1,0 +1,28 @@
+{
+    "$id": "${{site_id}}",
+    "$schema": "https://schema.yext.com/config/pages/yextsite-config/v1",
+    "siteName": "${{site_name}}",
+    "repoConfig": "${{repo_id}}",
+    "siteSettings": {
+      "autoDeploy": true,
+      "autoStage": true,
+      "autoPublish": true,
+      "pullRequestsEnabled": false,
+      "stagingCredentials": {
+        "password": "",
+        "username": ""
+      }
+    },
+    "branches": [
+      {
+        "name": "main",
+        "isProductionBranch": true,
+        "env": [
+          {
+            "env_var_example_key": "env_var_example_value"
+          }
+        ]
+      }
+    ]
+  }
+  
