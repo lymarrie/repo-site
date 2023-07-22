@@ -19,10 +19,12 @@
         "isProductionBranch": true,
         "envVars": [
           {
-            "YEXT_PUBLIC_LOCATION_ENTITY_ID": "${{YEXT_PUBLIC_LOCATION_ENTITY_ID}}"
+            "key": "YEXT_PUBLIC_LOCATION_ENTITY_ID",
+            "value": "${{YEXT_PUBLIC_LOCATION_ENTITY_ID}}"
           },
           {
-            "YEXT_PUBLIC_LOCATION_LOCALE_CODE": "${{YEXT_PUBLIC_LOCATION_LOCALE_CODE}}"
+            "key": "YEXT_PUBLIC_LOCATION_LOCALE_CODE",
+            "value": "${{YEXT_PUBLIC_LOCATION_LOCALE_CODE}}"
           }
         ]
       }
