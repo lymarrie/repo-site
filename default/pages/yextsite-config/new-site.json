@@ -19,7 +19,7 @@
         "isProductionBranch": true,
         "env": [
           {
-            "env_var_example_key": "env_var_example_value"
+            "YEXT_PUBLIC_LOCATION_ENTITY_ID": "{{YEXT_PUBLIC_LOCATION_ENTITY_ID}}"
           }
         ]
       }
