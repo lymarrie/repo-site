@@ -20,11 +20,11 @@
         "envVars": [
           {
             "key": "YEXT_PUBLIC_LOCATION_ENTITY_ID",
-            "value": "${{YEXT_PUBLIC_LOCATION_ENTITY_ID}}"
+            "value": "${{location_entity_id}}"
           },
           {
             "key": "YEXT_PUBLIC_LOCATION_LOCALE_CODE",
-            "value": "${{YEXT_PUBLIC_LOCATION_LOCALE_CODE}}"
+            "value": "${{location_locale_code}}"
           }
         ]
       }
