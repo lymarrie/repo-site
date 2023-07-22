@@ -17,7 +17,7 @@
       {
         "name": "master",
         "isProductionBranch": true,
-        "env": [
+        "envVars": [
           {
             "YEXT_PUBLIC_LOCATION_ENTITY_ID": "${{YEXT_PUBLIC_LOCATION_ENTITY_ID}}"
           },
